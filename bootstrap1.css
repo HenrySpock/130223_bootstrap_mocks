@@ -1,0 +1,41 @@
+.jumbotron {
+    background-color: #dde2e6;
+    color: #000000;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    margin: 0 10px;
+    width: calc(100% - 20px);
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+  }
+  
+  .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .row.justify-content-between > div {
+    margin-bottom: 20px;
+  }
+  
+  .bg-success {
+    background-color: #d4edda;
+    color: #28a745;
+    padding: 20px;
+  }
+
+  img {
+    width: 400px
+    height: 400px
+  }
+ 

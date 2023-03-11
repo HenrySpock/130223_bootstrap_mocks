@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+  integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+  crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+ 
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">LOGO</a>
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Contact</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">About Us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Messages <span class="badge badge-success">12</span></a>
+    </li>
+  </ul>
+</nav>
+
+<div class="container-fluid mt-4">
+
+<h1>Dashboard:</h1>
+
+<hr>
+
+<table class="table table-borderless">
+    <thead>
+      <tr class="bg-white">
+        <th>Name</th>
+        <th>Team</th>
+        <th>All Star</th>
+        <th>Remove</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="bg-light">
+        <td>Steph</td>
+        <td>Warriors</td>
+        <td>Yes</td>
+        <td><button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button></td> 
+      </tr>
+      <tr class="bg-white">
+        <td>Lebron</td>
+        <td>Cavaliers</td>
+        <td>Yes</td>
+        <td><button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button></td>
+      </tr>
+      <tr class="bg-light">
+        <td>Dwayne</td>
+        <td>Heat</td>
+        <td>Yes</td>
+        <td><button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button></td>
+      </tr>
+      <tr class="bg-white">
+        <td>Kobe</td>
+        <td>Lakers</td>
+        <td><span class="badge badge-warning text-dark">Last</span> Yes</td>
+        <td><button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button></td>
+      </tr>
+      <tr class="bg-light">
+        <td>Isaiah</td>
+        <td>Celtics</td>
+        <td><span class="badge badge-success">First</span> Yes</td>
+        <td><button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button></td>
+      </tr>
+    </tbody>
+  </table>
+
+<hr>
+
+<h2>Todos:</h2>
+
+<div class="container-fluid"> 
+    <div class="btn-block">
+      <button type="button" class="btn btn-lg btn-success btn-block text-left">Feel good about Bootstrap</button>
+    </div>
+    <div class="btn-block">
+      <button type="button" class="btn btn-lg btn-primary btn-block text-left">Feel informed about Bootstrap</button>
+    </div>
+    <div class="btn-block">
+      <button type="button" class="btn btn-lg btn-warning btn-block text-left">Feel warned about Bootstrap</button>
+    </div>
+    <div class="btn-block">
+      <button type="button" class="btn btn-lg btn-warning btn-block text-left">Maybe I should read the docs...</button>
+    </div>
+    <div class="btn-block">
+      <button type="button" class="btn btn-lg btn-danger btn-block text-left">Danger Zone</button>
+    </div>
+    <div class="btn-block">
+      <button type="button" class="btn btn-lg btn-danger btn-block text-left">I really should read the docs...</button>
+    </div> 
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+</body>
+</html>
